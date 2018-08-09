@@ -1,0 +1,154 @@
+
+/* Navigation */
+
+h1 {
+    
+    color: #00B3B3;
+    font-family: 'Merienda', cursive;
+}
+
+h2{
+   color: #00B3B3; 
+   font-family: 'Merienda', cursive;
+
+}
+
+
+.logo img{
+    
+    filter: alpha(opacity=50);
+    margin: auto;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    padding: 5px;
+    width: 60px;
+}
+
+
+.nav {
+    
+      background-image: url(../images/back1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 100px;
+      margin-bottom:45px;
+      position: relative;
+      z-index: 1000;
+
+}
+
+.nav a {
+    
+    color: #00B3B3;
+    font-size: 20px;
+}
+
+
+.custom-toggler, .navbar-toggler {
+    border-color: #00B3B3;
+}
+
+.custom-toggler, .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#18d495' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
+/*Index*/
+
+/*Index Info Collapse FadeIn/Out*/
+
+div.a {
+    
+    height: 35px;
+    margin: auto;
+    margin-top: 10px;
+    position: center;
+    width: 215px;
+}
+
+
+/* NYC Game */
+.trivia{
+    margin: auto;
+    padding: 10px;
+}
+
+.trivia {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+   
+   background-color: #CCE5E5;
+   color: #00B3B3;
+   font-family: 'Merienda', cursive;
+   font-size: 50px;
+   margin: auto;
+   padding: 10px;
+   text-align: center; 
+}
+
+#quiz{
+    color: #333;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    width: 100%;
+}
+
+.question{
+    font-weight: 600;
+    }
+    
+.answers {
+    margin-bottom: 20px;
+}
+
+#submit{
+    background-color: #00B3B3;
+    border: 0px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 20px;
+    
+   }
+   
+#submit:hover{
+    background-color: #3a8;
+}
+
+/*Main Body of Pages */
+
+.container-fluid {
+    width: 65%;
+}
+
+.box {
+    background-color: #00B3B3;
+}
+
+/* Form at the Bottom of all Pages*/
+
+div.button {
+    margin: auto;
+    padding: 10px;
+    position: center;
+    width: 20%;
+}
+
+h4 {
+    color: #00B3B3;
+}
